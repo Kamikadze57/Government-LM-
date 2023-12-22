@@ -1,0 +1,72 @@
+:root {
+    --accent-color: #97959E;
+    --add-color: ;
+    --text-color: ;
+    --add-text-color: ;
+} 
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.list {
+  list-style: none;
+  padding: 0;
+}
+.link {
+  text-decoration: none;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.container {
+  width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.header {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: var(--accent-color);
+}
+.header > .container { 
+    display: flex;
+    align-items: center;
+}
+.header-logo {
+    width: 3em;
+    height: 3em;
+    margin-right: 4.1em;
+}
+.header-nav-list {
+    display: flex;
+    gap: 1.7em;
+}
+.hero {
+    padding-bottom: 27em;
+    background-image: url('../images/hero-bg.png');
+    background-position: center;
+    background-size: cover;
+}
