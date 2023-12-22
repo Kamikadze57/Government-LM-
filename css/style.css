@@ -1,7 +1,7 @@
 :root {
-    --accent-color: #97959E;
-    --add-color: ;
-    --text-color: ;
+    --accent-color: #F08E41;
+    --bg-color: #343434;
+    --text-color: #FFF;
     --add-text-color: ;
 } 
 h1,
@@ -41,6 +41,9 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+body {
+    font-family: Merriweather;
+}
 .container {
   width: 1140px;
   margin: 0 auto;
@@ -49,7 +52,7 @@ img {
 .header {
     padding-top: 1em;
     padding-bottom: 1em;
-    background-color: var(--accent-color);
+    background-color: var(--bg-color);
 }
 .header > .container { 
     display: flex;
@@ -58,11 +61,22 @@ img {
 .header-logo {
     width: 3em;
     height: 3em;
-    margin-right: 4.1em;
+    margin-right: 1em;
+}
+.header-text {
+    margin-right: 3em;
 }
 .header-nav-list {
     display: flex;
     gap: 1.7em;
+}
+.header-list-item-link {
+    color: var(--text-color);
+font-family: Merriweather;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 }
 .hero {
     padding-bottom: 27em;
